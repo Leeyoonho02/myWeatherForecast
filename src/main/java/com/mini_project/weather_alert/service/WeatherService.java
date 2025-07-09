@@ -15,7 +15,7 @@ public class WeatherService {
     @Value("${Cc0uBvgBRQeNLgb4ARUHQw}")
     private String apiKey;
 
-    @Value("${kma.api.url}")
+    @Value("${https://apihub.kma.go.kr/api/typ02/openApi/VilageFcstInfoService_2.0/getUltraSrtNcst?pageNo=1&numOfRows=1000&dataType=XML&base_date=20210628&base_time=0600&nx=55&ny=127&authKey=Cc0uBvgBRQeNLgb4ARUHQw}")
     private String apiUrl;
 
     public String getForecast(String nx, String ny) {
